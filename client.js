@@ -1,8 +1,6 @@
 const net = require('net')
+const fs = require('fs')
 const PORT = 3000
-
-let id = null
-
 
 const client = net.Socket()
 
@@ -16,6 +14,7 @@ client.on('connect', () => {
 
 client.on('close', () => {
   console.log('client disconnected')
+  addMessage(serverMsg)
 })
 
 client.on('data', (data) => {
@@ -28,7 +27,8 @@ client.on('error', (err) => {
 })
 
 client.on('end', ()=> {
-  process.exit``
+  addMessage(closeMsg)
+  process.exit()
 })
 
 let input = process.stdin;
@@ -38,6 +38,6 @@ input.on('data', (value)=> {
     if(inputValue == 'quit') {
         client.end()
     } else {
-      client.write(`\n${client.localPort}: ${value}`)
+      client.write(`client ${client.localPort}: ${value}`)
     }
 })
