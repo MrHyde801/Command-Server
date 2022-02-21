@@ -2,33 +2,26 @@ const net = require('net')
 const PORT = 3000
 
 const clients = []
-let clientID = 1
 
-const messageAllClients = (msg, exclude) => {
-  clients.forEach((client, index) => {
-    if (index !== exclude) {
-      client.write(msg)
-    }
-  })
-}
+
 
 const server = net.createServer((client) => {
+  let name = client.remotePort
+  let msg = `client ${name} has connected`
 
-  client.id = clientID
   clients.push(client)
-
-  const msg = `client ${clientID} has connected\n`
-  messageAllClients(msg, clientID)
-
   console.log(msg)
   
-  clientID++
- 
+  client.write(`Client ${name} welcome to the chat!`)
+
   client.on('data', (data) => {
     console.log(data.toString())
+    messageAllClients(data, client);
   })
 
-
+  client.on('close', ()=> {
+    console.log(`client ${name} has left`)
+  })
   
 })
 
@@ -39,3 +32,11 @@ server.on('error', (err) => {
 server.listen(PORT, () => {
   console.log(`listening on port ${PORT}`)
 })
+
+const messageAllClients = (msg, exclude) => {
+  clients.forEach((client, index) => {
+    if (index !== exclude) {
+      client.write(msg)
+    }
+  })
+}
