@@ -1,6 +1,6 @@
 const net = require('net')
 const fs = require('fs')
-const PORT = 3000
+const PORT = 3050
 
 const client = net.Socket()
 
@@ -38,6 +38,6 @@ input.on('data', (value)=> {
     if(inputValue == 'quit') {
         client.end()
     } else {
-      client.write(`client ${client.localPort}: ${value}`)
+      client.write(`client ${client.localPort} : ${value}`)
     }
 })

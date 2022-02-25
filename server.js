@@ -1,25 +1,40 @@
 const net = require('net')
 const fs = require('fs')
-const PORT = 3000
+const PORT = 3050
 const clients = []
 const date = (new Date()).toLocaleString('en-US');
-
+const whispRegex = /\/w/
 
 
 const server = net.createServer((client) => {
-  let name = client.remotePort
-  let msg = `client ${name} has connected`
-  let closeMsg = `client ${name} has left`
-
+  client.name = client.remotePort
+  let msg = `client ${client.name} has connected`
+  let closeMsg = `client ${client.name} has left`
+  
   clients.push(client)
   console.log(msg)
   addMessage(msg)
   
-  client.write(`Client ${name} welcome to the chat!`)
+  client.write(`Client ${client.name} welcome to the chat!`)
+  console.log(clients.length)
+  
+  if(clients.length > 1) {
+    broadcastMessage(client)
+  }
 
   client.on('data', (data) => {
-    console.log(data.toString())
-    messageAllClients(data, client);
+    let stringData = data.toString()
+    console.log(stringData)
+    if(whispRegex.test(stringData)) {
+      let whisperArr = stringData.split(' ')
+      let targetClient = whisperArr[4]
+      let remove = whisperArr.splice(0,5)
+      let targetMsg = `/w ${client.name} : ` + whisperArr.join(' ')
+      messageOneClient(data, targetClient, targetMsg)
+
+    } else {
+      messageAllClients(data, client);
+    }
   })
 
   client.on('close', ()=> {
@@ -39,17 +54,36 @@ server.listen(PORT, () => {
   addMessage(serverMsg)
 })
 
+const broadcastMessage = (data, exclude) => {
+  clients.forEach((client) => {
+    if (client !== exclude) {
+      client.write(`\n client ${client.name} has joined the chat`)
+    }
+  })
+}
+
 const messageAllClients = (txtmsg, exclude) => {
-  clients.forEach((client, index) => {
-    if (index !== exclude) {
+  clients.forEach((client) => {
+    if (client !== exclude) {
       client.write(txtmsg)
       addMessage(txtmsg)
     }
   })
 }
 
+
+const messageOneClient = (data, include, txtmsg) => {
+  clients.forEach((client) => {
+    if (client.name == include) {
+      client.write(txtmsg)
+    }
+  })
+}
+
 const addMessage = (addText)=> {
-  fs.appendFile('./chat.log.txt', `--${date}-- \n${addText}\n\n`, (err)=> {
+  fs.appendFile('./log.txt', `--${date}-- \n${addText}\n\n`, (err)=> {
     if(err) throw(err);
   })
 }
+
+

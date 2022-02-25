@@ -1,0 +1,669 @@
+--2/25/2022, 3:30:57 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:30:57 PM-- 
+client 49313 has connected
+
+--2/25/2022, 3:31:17 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:31:17 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:31:25 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:31:28 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:31:31 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:31:34 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:31:34 PM-- 
+client 49324 has connected
+
+--2/25/2022, 3:32:00 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:32:03 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:32:15 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:32:15 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:32:17 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:32:19 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:32:25 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:32:25 PM-- 
+client 49393 has connected
+
+--2/25/2022, 3:32:25 PM-- 
+client 49394 has connected
+
+--2/25/2022, 3:32:58 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:32:58 PM-- 
+client 49456 has connected
+
+--2/25/2022, 3:32:58 PM-- 
+client 49457 has connected
+
+--2/25/2022, 3:33:11 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:33:19 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:33:19 PM-- 
+client 49497 has connected
+
+--2/25/2022, 3:33:19 PM-- 
+client 49498 has connected
+
+--2/25/2022, 3:33:19 PM-- 
+client 49533 has connected
+
+--2/25/2022, 3:33:19 PM-- 
+client 49533 has left
+
+--2/25/2022, 3:33:19 PM-- 
+client 49533 has left
+
+--2/25/2022, 3:33:19 PM-- 
+client 49533 has left
+
+--2/25/2022, 3:33:19 PM-- 
+client 49498 has left
+
+--2/25/2022, 3:33:19 PM-- 
+client 49498 has left
+
+--2/25/2022, 3:33:19 PM-- 
+client 49498 has left
+
+--2/25/2022, 3:36:05 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:36:07 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:36:15 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:36:15 PM-- 
+client 49671 has connected
+
+--2/25/2022, 3:36:54 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:36:54 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:36:56 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:37:04 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:37:30 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:37:49 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:38:36 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:38:48 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:38:48 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:38:52 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:38:59 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:39:06 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:39:06 PM-- 
+client 49913 has connected
+
+--2/25/2022, 3:39:06 PM-- 
+client 49930 has connected
+
+--2/25/2022, 3:39:57 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:40:03 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:40:10 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:40:10 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:40:20 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:40:30 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:40:41 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:40:41 PM-- 
+client 49947 has connected
+
+--2/25/2022, 3:40:41 PM-- 
+client 49949 has connected
+
+--2/25/2022, 3:41:15 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:41:18 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:41:18 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:41:21 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:41:25 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:41:31 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:41:58 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:42:03 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:42:03 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:42:03 PM-- 
+client 50096 has connected
+
+--2/25/2022, 3:42:03 PM-- 
+client 50099 has connected
+
+--2/25/2022, 3:43:08 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:43:20 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:43:27 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:43:34 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:43:34 PM-- 
+client 50219 has connected
+
+--2/25/2022, 3:43:34 PM-- 
+client 50220 has connected
+
+--2/25/2022, 3:44:53 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:44:57 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:44:58 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:44:59 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:44:59 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:44:59 PM-- 
+client 50321 has connected
+
+--2/25/2022, 3:45:24 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:45:27 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:45:30 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:45:31 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:45:33 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:45:50 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:45:50 PM-- 
+client 50363 has connected
+
+--2/25/2022, 3:46:33 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:46:35 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:46:35 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:46:42 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:46:42 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:47:18 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:47:18 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:47:30 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:47:39 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:47:49 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:48:07 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:48:08 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:48:16 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:48:27 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:48:27 PM-- 
+client 50486 has connected
+
+--2/25/2022, 3:48:45 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:48:45 PM-- 
+client 50488 has connected
+
+--2/25/2022, 3:48:58 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:48:58 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:48:58 PM-- 
+client 50532 has connected
+
+--2/25/2022, 3:49:26 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:49:26 PM-- 
+client 50539 has connected
+
+--2/25/2022, 3:49:44 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:49:44 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:49:45 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:49:45 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:49:45 PM-- 
+client 50541 has connected
+
+--2/25/2022, 3:49:45 PM-- 
+client 50617 has connected
+
+--2/25/2022, 3:49:45 PM-- 
+client 50617 : hello
+
+
+--2/25/2022, 3:49:45 PM-- 
+client 50617 : hello
+
+
+--2/25/2022, 3:49:45 PM-- 
+client 50617 : I want to kill someon
+
+
+--2/25/2022, 3:50:46 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:50:47 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:50:47 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:50:47 PM-- 
+client 50679 has connected
+
+--2/25/2022, 3:50:47 PM-- 
+client 50703 has connected
+
+--2/25/2022, 3:51:53 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:52:02 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:52:08 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:52:10 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:52:10 PM-- 
+client 50801 has connected
+
+--2/25/2022, 3:52:10 PM-- 
+client 50802 has connected
+
+--2/25/2022, 3:53:33 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:53:48 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:53:49 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:53:51 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:53:57 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:53:57 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:54:03 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:54:05 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:54:05 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:54:08 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:54:08 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:54:11 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:54:14 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:54:30 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:55:11 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:55:11 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:55:20 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:55:33 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:55:42 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:55:45 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:55:45 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:55:49 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:55:49 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:55:55 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:55:58 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:55:58 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:56:09 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:56:11 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:56:11 PM-- 
+client 51123 has connected
+
+--2/25/2022, 3:56:11 PM-- 
+client 51146 has connected
+
+--2/25/2022, 3:56:45 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:56:47 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:56:57 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:57:06 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:57:09 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:57:12 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:57:15 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:57:15 PM-- 
+client 51194 has connected
+
+--2/25/2022, 3:57:15 PM-- 
+client 51195 has connected
+
+--2/25/2022, 3:57:15 PM-- 
+51195 tried whispering himself
+
+--2/25/2022, 3:57:46 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:58:23 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:58:23 PM-- 
+client 51234 has connected
+
+--2/25/2022, 3:58:23 PM-- 
+client 51256 has connected
+
+--2/25/2022, 3:58:23 PM-- 
+51256 tried whispering himself
+
+--2/25/2022, 3:59:01 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:59:02 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:59:11 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 3:59:11 PM-- 
+client 51316 has connected
+
+--2/25/2022, 3:59:11 PM-- 
+client 51319 has connected
+
+--2/25/2022, 3:59:11 PM-- 
+51319 tried whispering himself
+
+--2/25/2022, 3:59:11 PM-- 
+51319 tried whispering himself
+
+--2/25/2022, 4:00:32 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:00:34 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:00:34 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:00:34 PM-- 
+client 51357 has connected
+
+--2/25/2022, 4:00:34 PM-- 
+51357 tried whispering himself
+
+--2/25/2022, 4:00:34 PM-- 
+client 51359 has connected
+
+--2/25/2022, 4:00:34 PM-- 
+51359 tried whispering himself
+
+--2/25/2022, 4:00:34 PM-- 
+51359 tried whispering himself
+
+--2/25/2022, 4:02:12 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:02:12 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:02:16 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:02:16 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:02:16 PM-- 
+client 51495 has connected
+
+--2/25/2022, 4:02:16 PM-- 
+client 51496 has connected
+
+--2/25/2022, 4:02:42 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:02:47 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:02:49 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:03:04 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:03:04 PM-- 
+client 51595 has connected
+
+--2/25/2022, 4:03:04 PM-- 
+client 51624 has connected
+
+--2/25/2022, 4:03:51 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:03:53 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:03:53 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:03:55 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:03:58 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:04:02 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:04:10 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:04:10 PM-- 
+client 51682 has connected
+
+--2/25/2022, 4:04:10 PM-- 
+client 51683 has connected
+
+--2/25/2022, 4:05:36 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:05:48 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:05:55 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:05:55 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:06:10 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:06:12 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:06:15 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:06:15 PM-- 
+Server is listening on port 3050
+
+--2/25/2022, 4:06:15 PM-- 
+client 51823 has connected
+
+--2/25/2022, 4:06:15 PM-- 
+client 51826 has connected
+
