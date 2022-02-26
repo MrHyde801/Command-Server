@@ -92,11 +92,6 @@ const messageOneClient = (data, exclude, include, txtmsg) => {
   
 }
 
-function checkClient(arr,val) {
-  return arr.some(function(arrVal) {
-    return val === arrVal
-  })
-}
 
 
 const addMessage = (addText)=> {
