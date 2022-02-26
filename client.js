@@ -38,6 +38,6 @@ input.on('data', (value)=> {
     if(inputValue == 'quit') {
         client.end()
     } else {
-      client.write(`client ${client.localPort} : ${value}`)
+      client.write(`client ${value}`)
     }
 })

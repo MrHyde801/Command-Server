@@ -4,6 +4,7 @@ const PORT = 3050
 const clients = []
 const date = (new Date()).toLocaleString('en-US');
 const whispRegex = /\/w/
+const userNameRegex = /\/username/
 
 
 const server = net.createServer((client) => {
@@ -16,7 +17,6 @@ const server = net.createServer((client) => {
   addMessage(msg)
   
   client.write(`Client ${client.name} welcome to the chat!`)
-  console.log(clients.length)
   
   if(clients.length > 1) {
     broadcastMessage(client)
@@ -30,8 +30,9 @@ const server = net.createServer((client) => {
       let targetClient = whisperArr[4]
       let remove = whisperArr.splice(0,5)
       let targetMsg = `/w ${client.name} : ` + whisperArr.join(' ')
-      messageOneClient(data, targetClient, targetMsg)
-
+      messageOneClient(data, client, targetClient, targetMsg)
+    } else if(userNameRegex.test(stringData)) {
+      console.log('changing username')
     } else {
       messageAllClients(data, client);
     }
@@ -54,10 +55,10 @@ server.listen(PORT, () => {
   addMessage(serverMsg)
 })
 
-const broadcastMessage = (data, exclude) => {
+const broadcastMessage = (exclude) => {
   clients.forEach((client) => {
     if (client !== exclude) {
-      client.write(`\n client ${client.name} has joined the chat`)
+      client.write(`\nclient ${client.name} has joined the chat`)
     }
   })
 }
@@ -72,13 +73,31 @@ const messageAllClients = (txtmsg, exclude) => {
 }
 
 
-const messageOneClient = (data, include, txtmsg) => {
-  clients.forEach((client) => {
-    if (client.name == include) {
-      client.write(txtmsg)
+const messageOneClient = (data, exclude, include, txtmsg) => {
+  if(exclude.name == include) {
+    exclude.write('-ERROR YOU CANNOT WHISPER TO YOURSELF-')
+  } else  {
+
+    if(clients.some(client=>client.name == include)) {
+      clients.forEach((client,index) => {
+        if (client.name == include) {
+          client.write(txtmsg)
+        }
+      })
+    } else {
+      exclude.write('-ERROR YOU NEED TO ENTER A VALID CLIENT NAME-')
     }
+    
+  }
+  
+}
+
+function checkClient(arr,val) {
+  return arr.some(function(arrVal) {
+    return val === arrVal
   })
 }
+
 
 const addMessage = (addText)=> {
   fs.appendFile('./log.txt', `--${date}-- \n${addText}\n\n`, (err)=> {
