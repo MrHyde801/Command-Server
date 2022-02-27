@@ -76,9 +76,7 @@ const messageAllClients = (txtmsg, exclude) => {
 const messageOneClient = (data, exclude, include, txtmsg) => {
   if(exclude.name == include) {
     exclude.write('-ERROR YOU CANNOT WHISPER TO YOURSELF-')
-  } else  {
-
-    if(clients.some(client=>client.name == include)) {
+  } if(clients.some(client=>client.name == include)) {
       clients.forEach((client,index) => {
         if (client.name == include) {
           client.write(txtmsg)
@@ -87,8 +85,6 @@ const messageOneClient = (data, exclude, include, txtmsg) => {
     } else {
       exclude.write('-ERROR YOU NEED TO ENTER A VALID CLIENT NAME-')
     }
-    
-  }
   
 }
 

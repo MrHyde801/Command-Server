@@ -11,7 +11,6 @@ client.on('connect', () => {
 })
 
 
-
 client.on('close', () => {
   console.log('client disconnected')
   addMessage(serverMsg)
@@ -34,10 +33,13 @@ client.on('end', ()=> {
 let input = process.stdin;
 input.on('data', (value)=> {
     let inputValue = (String)(value).trim(); //if you don't string the value this value is referenced as an object
+    let defaultName = client.localPort
     
+
+
     if(inputValue == 'quit') {
         client.end()
     } else {
-      client.write(`client ${value}`)
+      client.write(`client ${defaultName} : ${value}`)
     }
 })
